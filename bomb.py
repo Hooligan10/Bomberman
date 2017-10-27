@@ -1,6 +1,6 @@
 import time
 import config
-def print_Matrix(mat):
+def print_Matrix(mat):									# function to print the matrix
 	for _ in mat:
 		print("".join(_))
 
@@ -14,7 +14,7 @@ class bomb:
 		for k in range(4):
 			Matrix[x2][y2]="e"						   #8 e are printed 
 			Matrix[x2+1][y2]="e"
-			y2+=1
+			y2+=1										# coordinates are restored
 		self.x=x1
 		self.y=y1
 		

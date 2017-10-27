@@ -1,4 +1,4 @@
-import random
+import random                                       # first system modules are imported then our own modules.
 import os
 import signal
 import config

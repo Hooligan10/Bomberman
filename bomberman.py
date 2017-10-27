@@ -2,11 +2,11 @@ class bomberman:
     def __init__(self,Matrix):                              #initialises class bomberman
       
         
-      self.x=2
+      self.x=2                                              # initial coordinates of bomberman
       self.y=4
       x=2
       y=4
-      for k in range(4):
+      for k in range(4):                                     # Bomberman is placed at the coordinates
           Matrix[x][y]="B"
           Matrix[x+1][y]="B"
         
